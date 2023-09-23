@@ -5,7 +5,7 @@ module.exports = {
     title: 'Amadou Touré',
     description:
       'Amadou Touré is a college student studying Computer Science and Biochemistry on the pre-medicine track inspiring to become a phyisican.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+    siteUrl: 'https://https://amadoutoure.netlify.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@eamadoutoure',
   },
