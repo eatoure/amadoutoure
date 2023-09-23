@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['Flutter', 'JavaScript', 'Figma', 'Epic', 'R Studio'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +135,27 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Currently a junior at Carleton College, I am an aspiring physician dedicated to fusing the realms of Computer Science and Medicine.
+              Majoring in Computer Science on a Pre-Medicine track, with a minor in Biochemistry, I bring forth a solid academic foundation and
+              intermediate technical proficiency. My deep-rooted interest in medicine stems from first-hand experiences with the shortcomings of Sénégal’s healthcare system.
+              My mission is to leverage technology to improve people's daily lives. From designing applications to facilitate the integration of non-English speakers to conducting
+              in-depth analysis of Senegal's healthcare system, my work is aimed at creating sustainable solutions for societal betterment. With a passion for leadership and active involvement,
+              I am committed to the journey of driving transformative change in the world of healthcare.
+
+
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              Fast-forward to today, and I’ve had the privilege of interning and working at various prestigious institutions and organizations, contributing to diverse areas of healthcare and research. 
+              I’ve worked at <a href="https://www.mayo.edu/research/departments-divisions/department-otorhinolaryngology/education-training/undergraduate-research-program">the Mayo Clinic's Otolaryngology Department</a>, and a
+              <a href="https://www.carleton.edu/perception-lab/"> 
+              Psychology Research Lab at Carleton College</a>. I am also a member of <a href="https://www.thrivescholars.org">Thrive Scholars</a>, a non-profit organization aimed at supporting underrepresented minorities, 
+              and coordinate activities between <a href="https://healthfindersmn.org/about/">HealthFinders Collaborative</a>, a community health center dedicated to providing care for underserved and uninsured families, and Carleton College.
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              Currently, one of my main focuses is to obtain my Bachelor of Arts degree
+              in Computer Science and Biochemistry to hopefully matriculate to a medical school in Fall 2025.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

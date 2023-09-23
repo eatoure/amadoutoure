@@ -1,16 +1,14 @@
 ---
-date: '3'
-title: 'Build a Spotify Connected App'
+date: '2'
+title: 'Re-Evaluating the Impact of Medical Research Through Machine Learning'
 cover: './course-card.png'
-external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
-cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
+github: ''
+external: 'https://news.mit.edu/2023/new-way-evaluate-impact-medical-research-0814'
+cta: 'https://news.mit.edu/2023/new-way-evaluate-impact-medical-research-0814'
 tech:
-  - React
-  - Express
-  - Spotify API
-  - Styled Components
+  - Machine Learning
+  - Clinical Data Analysis
+  - Epidemiological Data Analysis
 ---
 
-Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had.
-
-Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, this course covers everything from explaining the principles of REST APIs to implementing Spotify's OAuth flow and fetching API data in a React app. By the end of the course, you’ll have an app deployed to the internet you can add to your portfolio.
+I'm actively contributing in researching the role of deep learning in clinical and epidemiological data analysis, focusing on the capabilities of neural networks in causal effect estimation and clinical risk prediction. The work is led by Dr. Leo Anthony Celi, M.D., and we are seeking to illustrate the potential of neural networks in medical AI and address the current limitations, with the goal of advancing the field and exploring untapped potentials in medical artificial intelligence.
