@@ -65,18 +65,15 @@ const Hero = () => {
   const four = (
     <>
       <p>
-      I’m a Computer Science major, Biochemistry minor and aspiring physician, specializing in creating innovative solutions. 
-      Currently, I’m involved in numerous research projects and am commited to developing accessible, user-friendly applications and conducting insightful 
-      analyses to improve global healthcare systems, especially in underserved populations.
+        I’m a Computer Science major and Biochemistry minor, specializing in creating innovative
+        solutions. Currently, I’m involved in numerous research projects and am commited to
+        developing accessible, user-friendly applications and conducting insightful analyses to
+        improve global healthcare systems, especially in underserved populations.
       </p>
     </>
   );
   const five = (
-    <a
-      className="email-link"
-      href="https://eatoure.github.io/#/"
-      target="_blank"
-      rel="noreferrer">
+    <a className="email-link" href="https://eatoure.github.io/#/" target="_blank" rel="noreferrer">
       Check out my most recent website!
     </a>
   );

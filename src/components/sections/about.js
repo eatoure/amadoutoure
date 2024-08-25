@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Flutter', 'JavaScript', 'Figma', 'Epic', 'R Studio'];
+  const skills = ['Flutter', 'JavaScript', 'Figma', 'Epic', 'R Studio', 'Python', 'C++', 'Java'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,27 +135,41 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Currently a junior at Carleton College, I am an aspiring physician dedicated to fusing the realms of Computer Science and Medicine.
-              Majoring in Computer Science on a Pre-Medicine track, with a minor in Biochemistry, I bring forth a solid academic foundation and
-              intermediate technical proficiency. My deep-rooted interest in medicine stems from first-hand experiences with the shortcomings of Sénégal’s healthcare system.
-              My mission is to leverage technology to improve people's daily lives. From designing applications to facilitate the integration of non-English speakers to conducting
-              in-depth analysis of Senegal's healthcare system, my work is aimed at creating sustainable solutions for societal betterment. With a passion for leadership and active involvement,
-              I am committed to the journey of driving transformative change in the world of healthcare.
-
-
+              Currently a senior at Carleton College, I am very interested in Computer Science and
+              Software Engineering, and also have a deep interest in medicine. Majoring in Computer
+              Science with a minor in Biochemistry, I bring forth a solid academic foundation and
+              intermediate technical proficiency. My deep-rooted interest in medicine stems from
+              first-hand experiences with the shortcomings of Sénégal’s healthcare system. My
+              mission is to leverage technology to improve people's daily lives. From designing
+              applications to facilitate the integration of non-English speakers to conducting
+              in-depth analysis of Senegal's healthcare system, my work is aimed at creating
+              sustainable solutions for societal betterment. With a passion for leadership and
+              active involvement, I am committed to the journey of driving transformative change.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of interning and working at various prestigious institutions and organizations, contributing to diverse areas of healthcare and research. 
-              I’ve worked at <a href="https://www.mayo.edu/research/departments-divisions/department-otorhinolaryngology/education-training/undergraduate-research-program">the Mayo Clinic's Otolaryngology Department</a>, and a
-              <a href="https://www.carleton.edu/perception-lab/"> 
-              Psychology Research Lab at Carleton College</a>. I am also a member of <a href="https://www.thrivescholars.org">Thrive Scholars</a>, a non-profit organization aimed at supporting underrepresented minorities, 
-              and coordinate activities between <a href="https://healthfindersmn.org/about/">HealthFinders Collaborative</a>, a community health center dedicated to providing care for underserved and uninsured families, and Carleton College.
+              Fast-forward to today, and I’ve had the privilege of interning and working at various
+              prestigious institutions and organizations, contributing to diverse areas of
+              healthcare, software engineering, machine learning, and research. I’ve worked at{' '}
+              <a href="https://www.mayo.edu/research/departments-divisions/department-otorhinolaryngology/education-training/undergraduate-research-program">
+                the Mayo Clinic
+              </a>
+              , and a
+              <a href="https://www.carleton.edu/perception-lab/">
+                {' '}
+                Psych. Research Lab at Carleton
+              </a>
+              . I am also a member of <a href="https://www.thrivescholars.org">Thrive Scholars</a>,
+              a non-profit organization aimed at supporting underrepresented minorities, and
+              coordinate activities between{' '}
+              <a href="https://healthfindersmn.org/about/">HealthFinders Collaborative</a>, a
+              community health center dedicated to providing care for underserved and uninsured
+              families, and Carleton College.
             </p>
 
             <p>
-              Currently, one of my main focuses is to obtain my Bachelor of Arts degree
-              in Computer Science and Biochemistry to hopefully matriculate to a medical school in Fall 2025.
+              Currently, one of my main focuses is to obtain my Bachelor of Arts degree in Computer
+              Science and Biochemistry to hopefully start a SWE position upon graduation.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
