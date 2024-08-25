@@ -11,14 +11,13 @@ module.exports = {
       url: 'https://www.instagram.com/amadouirving',
     },
     {
-      name: 'Twitter',
-      url: 'https://twitter.com/eamadoutoure',
+      name: 'Twitter / X',
+      url: 'https://x.com/eamadoutoure',
     },
     {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/elhadjiatoure/',
     },
-    
   ],
 
   navLinks: [

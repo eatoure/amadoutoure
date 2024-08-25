@@ -11,4 +11,4 @@ tech:
   - Prognosis Management
 ---
 
-A one-stop site for hematology patients and physicians to estimate risks of progression in Multiple Myeloma, Smoldering Multiple Myeloma, Monoclonal Gammopathy of Unknown Significance (MGUS), Amyloidosis, and Waldenstrom Macroglobulinemia.
+A one-stop website for hematology patients and physicians to estimate risks of progression in Multiple Myeloma, Smoldering Multiple Myeloma, Monoclonal Gammopathy of Unknown Significance (MGUS), Amyloidosis, Waldenstrom Macroglobulinemia, etc.
