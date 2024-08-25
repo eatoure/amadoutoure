@@ -3,12 +3,12 @@ date: '2'
 title: 'Re-Evaluating the Impact of Medical Research Through Machine Learning'
 cover: './course-card.png'
 github: ''
-external: 'https://news.mit.edu/2023/new-way-evaluate-impact-medical-research-0814'
-cta: 'https://news.mit.edu/2023/new-way-evaluate-impact-medical-research-0814'
+external: 'https://mpec.massgeneral.org'
+cta: 'https://mpec.massgeneral.org'
 tech:
   - Machine Learning
   - Clinical Data Analysis
   - Epidemiological Data Analysis
 ---
 
-I'm actively contributing in researching the role of deep learning in clinical and epidemiological data analysis, focusing on the capabilities of neural networks in causal effect estimation and clinical risk prediction. The work is led by Dr. Leo Anthony Celi, M.D., and we are seeking to illustrate the potential of neural networks in medical AI and address the current limitations, with the goal of advancing the field and exploring untapped potentials in medical artificial intelligence.
+Currently at the Medical Practice Evaluation Center (MPEC) at BWH MassGen, I am utilizing machine learning to analyze cardiovascular disease (CVD) risk factors in Bangladesh. My work focuses on clustering socioeconomic and behavioral data to predict chronic disease outcomes, informing healthcare strategies in low and middle-income countries. Additionally, I'm contributing to data analysis projects on integrating non-communicable disease (NCD) screening in HIV care centers and early-phase predictions related to GLP-1s and Ozempic.
