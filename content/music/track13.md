@@ -6,4 +6,4 @@ year: "2021"
 url: "/music/Prod63.mp3"
 ---
 
-Made this for another video of mine while I was in Senegal in 2021. I really learved a LOT about beatmaking working with Rider on the Track (now BaB$ight) on this.
+Made this for another video of mine while I was in Senegal in 2021. I really learned a LOT about beatmaking working with Rider on the Track (now BaB$ight) on this.

@@ -1,5 +1,5 @@
 ---
-title: "Emmy Award Please?"
+title: "Emmy Award"
 artist: "Uncle Ams & Rich the Kid"
 album: "Melancholies"
 year: "2020"

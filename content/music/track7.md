@@ -6,4 +6,4 @@ year: "2019"
 url: "/music/Prod54.mp3"
 ---
 
-Funny story but too long to put here...ask me about it! (etoure33@gmail.com)
+Funny story but too long to put here...ask me about it!

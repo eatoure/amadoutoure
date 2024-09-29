@@ -364,7 +364,7 @@ const Music = () => {
 
   return (
     <StyledMusicSection id="music" ref={revealContainer}>
-      <h2 className="numbered-heading">My Music</h2>
+      <h2 className="numbered-heading">Some Hobbies: My Music (I recommend headphones!)</h2>
 
       <div className="inner">
         <StyledTabList role="tablist" aria-label="Music tabs" onKeyDown={onKeyDown}>
