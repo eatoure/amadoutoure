@@ -1,11 +1,8 @@
-<div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" />
-</div>
 <h1 align="center">
   amadoutoure.com - V1
 </h1>
 <p align="center">
-  The fourth iteration of <a href="https://amadoutoure.com" target="_blank">amadoutoure.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+  The first iteration of <a href="https://amadoutoure.com" target="_blank">amadoutoure.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify. Adapted from the work of Brittany Chiang (https://brittanychiang.com)</a>
 </p>
 
 
