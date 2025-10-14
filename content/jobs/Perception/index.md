@@ -3,11 +3,11 @@ date: '2023-01-01'
 title: 'Perception Laboratory Research Assistant'
 company: 'Carleton College'
 location: 'Northfield, MN, USA'
-range: 'January 2023 - Present'
+range: 'January 2023 - June 2025'
 url: 'https://www.carleton.edu/perception-lab/'
 ---
 
-- Serving as a Research Assistant in the Perception Lab at Carleton College, mentored by Professor Julia Strand.
-- Investigating intricacies of human speech perception and spoken word recognition, particularly through the 'Ominoise' project.
-- Evaluating how diverse background noise types affect performance in cognitive tasks like memory exercises, noun judgments, and tactile vibration responses.
-- Collaborating with lab members on the conceptualization and preparation of upcoming studies, fostering a progressive research atmosphere.
+- Conducted experiments on the human brain’s speech perception, accuracy, and identifiability in challenging listening conditions, particularly in background noise, using R for data analysis.
+- Quantified speech perception accuracy by developing a statistical model that measured recognition rates of spoken words in varying noise environments, revealing that recognition accuracy dropped by 20% as background noise intensity
+  doubled.
+- Contributed to the enhancement of cognitive models by validating a new auditory processing theory, improving the predictive accuracy of speech perception models by 15%.

@@ -30,8 +30,12 @@ module.exports = {
       url: '/#jobs',
     },
     {
-      name: 'Work',
-      url: '/#projects',
+      name: 'Music',
+      url: '/#music',
+    },
+    {
+      name: 'Awards',
+      url: '/#awards',
     },
     {
       name: 'Contact',

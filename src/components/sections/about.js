@@ -125,7 +125,19 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Flutter', 'JavaScript', 'Figma', 'Epic', 'R Studio', 'Python', 'C++', 'Java'];
+  const skills = [
+    'Python',
+    'Flask',
+    'React',
+    'SQL',
+    'Snowflake',
+    'Apache ECharts',
+    'Time-Series Forecasting',
+    'Docker',
+    'XGBoost',
+    'SARIMAX',
+    'Exponential Smoothing',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,41 +147,36 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Currently a senior at Carleton College, I am very interested in Computer Science and
-              Software Engineering, and also have a deep interest in medicine. Majoring in Computer
-              Science with a minor in Biochemistry, I bring forth a solid academic foundation and
-              intermediate technical proficiency. My deep-rooted interest in medicine stems from
-              first-hand experiences with the shortcomings of Sénégal’s healthcare system. My
-              mission is to leverage technology to improve people's daily lives. From designing
-              applications to facilitate the integration of non-English speakers to conducting
-              in-depth analysis of Senegal's healthcare system, my work is aimed at creating
-              sustainable solutions for societal betterment. With a passion for leadership and
-              active involvement, I am committed to the journey of driving transformative change.
+              I’m a proud Carleton College alum with a B.A. in Computer Science and a minor in
+              Biochemistry, now working as a Data Scientist at{' '}
+              <a href="https://www.baltimorehealthanalytics.com">Baltimore Health Analytics</a>.
+              Each day I design predictive modeling systems and full-stack analytics platforms that
+              help healthcare leaders make faster, better-informed decisions.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of interning and working at various
-              prestigious institutions and organizations, contributing to diverse areas of
-              healthcare, software engineering, machine learning, and research. I’ve worked at{' '}
+              My passion for this work is rooted in firsthand exposure to the challenges of
+              Sénégal’s healthcare system and my general insterest in healthcare. That perspective
+              keeps me focused on building accessible tools that translate complex data into
+              meaningful care. I’ve previously contributed to research and engineering teams at{' '}
               <a href="https://www.mayo.edu/research/departments-divisions/department-otorhinolaryngology/education-training/undergraduate-research-program">
-                the Mayo Clinic
+                Mayo Clinic
               </a>
-              , and a
-              <a href="https://www.carleton.edu/perception-lab/">
-                {' '}
-                Psych. Research Lab at Carleton
-              </a>
-              . I am also a member of <a href="https://www.thrivescholars.org">Thrive Scholars</a>,
-              a non-profit organization aimed at supporting underrepresented minorities, and
-              coordinate activities between{' '}
-              <a href="https://healthfindersmn.org/about/">HealthFinders Collaborative</a>, a
-              community health center dedicated to providing care for underserved and uninsured
-              families, and Carleton College.
+              , the <a href="https://www.carleton.edu/perception-lab/">Carleton Perception Lab</a>,
+              and community-focused organizations like{' '}
+              <a href="https://healthfindersmn.org/about/">HealthFinders Collaborative</a>.
             </p>
 
             <p>
-              Currently, one of my main focuses is to obtain my Bachelor of Arts degree in Computer
-              Science and Biochemistry to hopefully start a SWE position upon graduation.
+              Beyond Baltimore Health Analytics, I'm building{' '}
+              <a href="https://www.azertica.com">Azertica</a>, a startup developing cloud based SaaS
+              tools in healthcare, education, connectivity, and sports to strengthen Africa's
+              digital infrastructure. Simlulaneously, I engage with DeeboAI, a startup focused on
+              SaaS, specifically DAW plugin development, and app and website consulting. Whether I'm
+              architecting scalable ML pipelines, reworking front-end UX, or parterning with
+              clinicians and creators, my mission remains the same: deliver technology that elevates
+              health outcomes, enhances accessibility, and amplified creative expression across a
+              wide array of domains.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
