@@ -71,9 +71,10 @@ const Hero = () => {
         Biochemistry, and now work as a Data Scientist at Baltimore Health Analytics. I design and
         deploy predictive modeling platforms that blend machine learning, product thinking, and
         healthcare strategy—always with an eye toward accessibility and real-world impact. Outside
-        of work, I’m building Azertica, a startup focused on scalable analytics experiences for
-        mission-driven teams, and co-founding DeeboAI, where we’re engineering AI-native tooling for
-        audio creators.
+        of work, alongside my brotgher, I’m contributing in the build of Azertica, a startup focused
+        on developing cloud based tools in healthcare, education, connectivity, and sports to
+        strengthen Africa's digital infrastructure. Simlulaneously, I engage with DeeboAI, a startup
+        focused on SaaS, specifically DAW plugin development, and app and website consulting.
       </p>
     </>
   );
