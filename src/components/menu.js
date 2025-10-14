@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Helmet } from 'react-helmet';
+// Removed react-helmet; using effect to manage body class.
 import { Link } from 'gatsby';
 import styled from 'styled-components';
 import { navLinks } from '@config';
@@ -241,12 +241,20 @@ const Menu = () => {
   const wrapperRef = useRef();
   useOnClickOutside(wrapperRef, () => setMenuOpen(false));
 
+  // Side effect: toggle body blur class on menu open
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      document.body.classList.toggle('blur', menuOpen);
+    }
+    return () => {
+      if (typeof document !== 'undefined') {
+        document.body.classList.remove('blur');
+      }
+    };
+  }, [menuOpen]);
+
   return (
     <StyledMenu>
-      <Helmet>
-        <body className={menuOpen ? 'blur' : ''} />
-      </Helmet>
-
       <div ref={wrapperRef}>
         <StyledHamburgerButton
           onClick={toggleMenu}

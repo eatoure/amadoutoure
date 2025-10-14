@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'gatsby';
-import { Helmet } from 'react-helmet';
+import Seo from '@components/seo';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
@@ -50,8 +50,6 @@ const NotFoundPage = ({ location }) => {
 
   return (
     <Layout location={location}>
-      <Helmet title="Page Not Found" />
-
       {prefersReducedMotion ? (
         <>{content}</>
       ) : (
@@ -72,3 +70,5 @@ NotFoundPage.propTypes = {
 };
 
 export default NotFoundPage;
+
+export const Head = () => <Seo title="404 Not Found" />;
