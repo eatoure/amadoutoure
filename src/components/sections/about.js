@@ -156,14 +156,20 @@ const About = () => {
 
             <p>
               My passion for this work is rooted in firsthand exposure to the challenges of
-              Sénégal’s healthcare system and my general insterest in healthcare. That perspective
+              Sénégal’s healthcare system and my general insterest in medicine. That perspective
               keeps me focused on building accessible tools that translate complex data into
-              meaningful care. I’ve previously contributed to research and engineering teams at{' '}
+              meaningful care in a variety of industries. I’ve previously contributed to research
+              and engineering teams at{' '}
               <a href="https://www.mayo.edu/research/departments-divisions/department-otorhinolaryngology/education-training/undergraduate-research-program">
                 Mayo Clinic
               </a>
-              , the <a href="https://www.carleton.edu/perception-lab/">Carleton Perception Lab</a>,
-              and community-focused organizations like{' '}
+              ,{' '}
+              <a href="https://www.brighamandwomens.org/medicine/infectious-disease/bridge-summer-fellowship">
+                Harvard Medical School / Mass General Brigham
+              </a>
+              , the{' '}
+              <a href="https://www.carleton.edu/perception-lab/">Carleton College Perception Lab</a>
+              , and community-focused organizations like{' '}
               <a href="https://healthfindersmn.org/about/">HealthFinders Collaborative</a>.
             </p>
 
