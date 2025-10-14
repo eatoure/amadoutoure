@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Amadou Touré',
     description:
-      'Amadou Touré is a college student studying Computer Science and Biochemistry on the pre-medicine track inspiring to become a phyisican.',
+      'Amadou Touré is a recent Carleton College alum with a B.A. in Computer Science and a minor in Mathematics. He is passionate about building data-driven tools for healthier communities.',
     siteUrl: 'https://https://amadoutoure.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@eamadoutoure',
@@ -49,13 +49,6 @@ module.exports = {
       options: {
         name: `posts`,
         path: `${__dirname}/content/posts`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `projects`,
-        path: `${__dirname}/content/projects`,
       },
     },
     {

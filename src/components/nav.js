@@ -33,7 +33,7 @@ const StyledHeader = styled.header`
 
   @media (prefers-reduced-motion: no-preference) {
     ${props =>
-    props.scrollDirection === 'up' &&
+      props.scrollDirection === 'up' &&
       !props.scrolledToTop &&
       css`
         height: var(--nav-scroll-height);
@@ -43,7 +43,7 @@ const StyledHeader = styled.header`
       `};
 
     ${props =>
-    props.scrollDirection === 'down' &&
+      props.scrollDirection === 'down' &&
       !props.scrolledToTop &&
       css`
         height: var(--nav-scroll-height);
@@ -145,8 +145,15 @@ const StyledLinks = styled.div`
 
   .resume-button {
     ${({ theme }) => theme.mixins.smallButton};
-    margin-left: 15px;
+    margin-left: 0;
     font-size: var(--fz-xs);
+  }
+
+  .document-links {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: 15px;
   }
 `;
 
@@ -210,6 +217,17 @@ const Nav = ({ isHome }) => {
       Resume
     </a>
   );
+  const CVLink = (
+    <a className="resume-button" href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+      CV
+    </a>
+  );
+  const DocumentLinks = (
+    <div className="document-links">
+      {ResumeLink}
+      {CVLink}
+    </div>
+  );
 
   return (
     <StyledHeader scrollDirection={scrollDirection} scrolledToTop={scrolledToTop}>
@@ -227,7 +245,7 @@ const Nav = ({ isHome }) => {
                     </li>
                   ))}
               </ol>
-              <div>{ResumeLink}</div>
+              {DocumentLinks}
             </StyledLinks>
 
             <Menu />
@@ -261,7 +279,7 @@ const Nav = ({ isHome }) => {
                 {isMounted && (
                   <CSSTransition classNames={fadeDownClass} timeout={timeout}>
                     <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
-                      {ResumeLink}
+                      {DocumentLinks}
                     </div>
                   </CSSTransition>
                 )}

@@ -61,20 +61,25 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">E. Amadou Touré.</h2>;
-  const three = <h3 className="big-heading">I conduct research and build things on the web.</h3>;
+  const three = (
+    <h3 className="big-heading">I build data-driven tools for healthier communities.</h3>
+  );
   const four = (
     <>
       <p>
-        I’m a Computer Science major and Biochemistry minor, specializing in creating innovative
-        solutions. Currently, I’m involved in numerous research projects and am commited to
-        developing accessible, user-friendly applications and conducting insightful analyses to
-        improve global healthcare systems, especially in underserved populations.
+        I recently graduated from Carleton College with a B.A. in Computer Science and a minor in
+        Biochemistry, and now work as a Data Scientist at Baltimore Health Analytics. I design and
+        deploy predictive modeling platforms that blend machine learning, product thinking, and
+        healthcare strategy—always with an eye toward accessibility and real-world impact. Outside
+        of work, I’m building Azertica, a startup focused on scalable analytics experiences for
+        mission-driven teams, and co-founding DeeboAI, where we’re engineering AI-native tooling for
+        audio creators.
       </p>
     </>
   );
   const five = (
-    <a className="email-link" href="https://eatoure.github.io/#/" target="_blank" rel="noreferrer">
-      Check out my most recent website!
+    <a className="email-link" href="https://azertica.com" target="_blank" rel="noreferrer">
+      Explore what I’m building at Azertica
     </a>
   );
 

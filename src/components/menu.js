@@ -74,7 +74,7 @@ const StyledHamburgerButton = styled.button`
       top: ${props => (props.menuOpen ? `0` : `-10px`)};
       opacity: ${props => (props.menuOpen ? 0 : 1)};
       transition: ${({ menuOpen }) =>
-    menuOpen ? 'var(--ham-before-active)' : 'var(--ham-before)'};
+        menuOpen ? 'var(--ham-before-active)' : 'var(--ham-before)'};
     }
     &:after {
       width: ${props => (props.menuOpen ? `100%` : `80%`)};
@@ -147,11 +147,17 @@ const StyledSidebar = styled.aside`
     }
   }
 
-  .resume-link {
-    ${({ theme }) => theme.mixins.bigButton};
-    padding: 18px 50px;
+  .document-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     margin: 10% auto 0;
     width: max-content;
+  }
+
+  .document-links a {
+    ${({ theme }) => theme.mixins.bigButton};
+    padding: 18px 50px;
   }
 `;
 
@@ -246,7 +252,8 @@ const Menu = () => {
           onClick={toggleMenu}
           menuOpen={menuOpen}
           ref={buttonRef}
-          aria-label="Menu">
+          aria-label="Menu"
+        >
           <div className="ham-box">
             <div className="ham-box-inner" />
           </div>
@@ -266,9 +273,10 @@ const Menu = () => {
               </ol>
             )}
 
-            <a href="/resume.pdf" className="resume-link">
-              Resume
-            </a>
+            <div className="document-links">
+              <a href="/resume.pdf">Resume</a>
+              <a href="/cv.pdf">CV</a>
+            </div>
           </nav>
         </StyledSidebar>
       </div>
