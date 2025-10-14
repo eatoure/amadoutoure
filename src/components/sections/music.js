@@ -215,7 +215,7 @@ const Music = () => {
     query {
       music: allMarkdownRemark(
         filter: { fileAbsolutePath: { regex: "/content/music/" } }
-        sort: { fields: [frontmatter___year], order: DESC }
+        sort: { frontmatter: { year: DESC } }
       ) {
         edges {
           node {

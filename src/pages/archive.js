@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import { Helmet } from 'react-helmet';
+import Seo from '@components/seo';
 import styled from 'styled-components';
 import { srConfig } from '@config';
 import sr from '@utils/sr';
@@ -148,8 +148,6 @@ const ArchivePage = ({ location, data }) => {
 
   return (
     <Layout location={location}>
-      <Helmet title="Archive" />
-
       <main>
         <header ref={revealTitle}>
           <h1 className="big-heading">Archive</h1>
@@ -234,11 +232,13 @@ ArchivePage.propTypes = {
 
 export default ArchivePage;
 
+export const Head = () => <Seo title="Archive" />;
+
 export const pageQuery = graphql`
   {
     allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/content/projects/" } }
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
     ) {
       edges {
         node {
