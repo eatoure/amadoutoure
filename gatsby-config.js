@@ -5,12 +5,11 @@ module.exports = {
     title: 'Amadou Touré',
     description:
       'Amadou Touré is a recent Carleton College alum with a B.A. in Computer Science and a minor in Mathematics. He is passionate about building data-driven tools for healthier communities.',
-    siteUrl: 'https://https://amadoutoure.com', // No trailing slash allowed!
+    siteUrl: 'https://amadoutoure.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@eamadoutoure',
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
@@ -70,7 +69,7 @@ module.exports = {
               maxWidth: 700,
               linkImagesToOriginal: true,
               quality: 90,
-              tracedSVG: { color: config.colors.green },
+              // tracedSVG removed (deprecated); using default blurred placeholder
             },
           },
           {
