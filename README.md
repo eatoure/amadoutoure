@@ -1,3 +1,5 @@
+Hey folks, Amadou here. I'm just going to paste whatever the great Brittany Chiang had here!
+
 <div align="center">
   <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" />
 </div>
