@@ -30,6 +30,18 @@
       "prettier --write"
     ]
   },
+  "resolutions": {
+    "cookie": "0.7.2",
+    "tmp": "0.2.5",
+    "workbox-build": "7.3.0",
+    "@parcel/reporter-dev-server": "2.16.1"
+  },
+  "overrides": {
+    "cookie": "0.7.2",
+    "tmp": "0.2.5",
+    "workbox-build": "7.3.0",
+    "@parcel/reporter-dev-server": "2.16.1"
+  },
   "dependencies": {
     "@gatsbyjs/reach-router": "^2.0.1",
     "animejs": "^3.1.0",
