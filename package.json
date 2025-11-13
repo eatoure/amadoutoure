@@ -12,7 +12,7 @@
   ],
   "license": "MIT",
   "engines": {
-    "node": "18.x"
+    "node": "22.x"
   },
   "browserslist": "> 0.25%, not dead",
   "scripts": {
@@ -32,15 +32,11 @@
   },
   "resolutions": {
     "cookie": "0.7.2",
-    "tmp": "0.2.5",
-    "workbox-build": "7.3.0",
-    "@parcel/reporter-dev-server": "2.16.1"
+    "tmp": "0.2.5"
   },
   "overrides": {
     "cookie": "0.7.2",
-    "tmp": "0.2.5",
-    "workbox-build": "7.3.0",
-    "@parcel/reporter-dev-server": "2.16.1"
+    "tmp": "0.2.5"
   },
   "dependencies": {
     "@gatsbyjs/reach-router": "^2.0.1",
