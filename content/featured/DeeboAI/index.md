@@ -1,9 +1,9 @@
 ---
 date: '2'
 title: 'DeeboAI Studio'
-cover: './demo.png'
+cover: './deeboai.png'
 github: ''
-external: 'https://www.linkedin.com/company/deeboai/'
+external: 'https://www.deeboai.com'
 tech:
   - PyTorch
   - Neural Vocoders

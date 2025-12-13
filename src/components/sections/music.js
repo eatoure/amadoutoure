@@ -88,12 +88,19 @@ const StyledTabButton = styled.button`
   @media (max-width: 600px) {
     ${({ theme }) => theme.mixins.flexCenter};
     min-width: 120px;
+    max-width: 200px;
     padding: 0 15px;
     border-left: 0;
     border-bottom: 2px solid var(--lightest-navy);
     text-align: center;
-    overflow: hidden;
-    text-overflow: ellipsis;
+
+    span {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      display: block;
+      width: 100%;
+    }
   }
 
   &:hover,
@@ -236,6 +243,13 @@ const Music = () => {
   `);
 
   const musicData = data.music.edges;
+
+  // Remove any potential duplicates based on title
+  const uniqueMusicData = musicData.filter(
+    (item, index, self) =>
+      index === self.findIndex(t => t.node.frontmatter.title === item.node.frontmatter.title),
+  );
+
   const [activeTabId, setActiveTabId] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isReady, setIsReady] = useState(false);
@@ -288,7 +302,7 @@ const Music = () => {
     setDuration('0:00');
     setIsPlaying(false);
 
-    const currentTrack = musicData[activeTabId].node.frontmatter;
+    const currentTrack = uniqueMusicData[activeTabId].node.frontmatter;
 
     if (waveformRef.current && currentTrack.url) {
       // Create new WaveSurfer instance
@@ -356,10 +370,10 @@ const Music = () => {
 
     if (key === 'ArrowUp' || key === 'ArrowLeft') {
       e.preventDefault();
-      newTabId = (activeTabId - 1 + musicData.length) % musicData.length;
+      newTabId = (activeTabId - 1 + uniqueMusicData.length) % uniqueMusicData.length;
     } else if (key === 'ArrowDown' || key === 'ArrowRight') {
       e.preventDefault();
-      newTabId = (activeTabId + 1) % musicData.length;
+      newTabId = (activeTabId + 1) % uniqueMusicData.length;
     }
 
     setActiveTabId(newTabId);
@@ -372,8 +386,8 @@ const Music = () => {
 
       <div className="inner">
         <StyledTabList role="tablist" aria-label="Music tabs" onKeyDown={onKeyDown}>
-          {musicData &&
-            musicData.map(({ node }, i) => {
+          {uniqueMusicData &&
+            uniqueMusicData.map(({ node }, i) => {
               const { title } = node.frontmatter;
               return (
                 <StyledTabButton
@@ -385,8 +399,7 @@ const Music = () => {
                   role="tab"
                   tabIndex={activeTabId === i ? '0' : '-1'}
                   aria-selected={activeTabId === i}
-                  aria-controls={`panel-${i}`}
-                >
+                  aria-controls={`panel-${i}`}>
                   <span>{title}</span>
                 </StyledTabButton>
               );
@@ -395,8 +408,8 @@ const Music = () => {
         </StyledTabList>
 
         <StyledTabPanels>
-          {musicData &&
-            musicData.map(({ node }, i) => {
+          {uniqueMusicData &&
+            uniqueMusicData.map(({ node }, i) => {
               const { frontmatter, html } = node;
               const { title, artist, album, year } = frontmatter;
 
@@ -406,16 +419,14 @@ const Music = () => {
                   in={activeTabId === i}
                   timeout={250}
                   classNames="fade"
-                  unmountOnExit
-                >
+                  unmountOnExit>
                   <StyledTabPanel
                     id={`panel-${i}`}
                     role="tabpanel"
                     tabIndex={activeTabId === i ? '0' : '-1'}
                     aria-labelledby={`tab-${i}`}
                     aria-hidden={activeTabId !== i}
-                    hidden={activeTabId !== i}
-                  >
+                    hidden={activeTabId !== i}>
                     <h3>
                       <span>{title}</span>
                       <span className="artist">
@@ -435,8 +446,7 @@ const Music = () => {
                           className="play-button"
                           onClick={handlePlayPause}
                           disabled={!isReady}
-                          title={!isReady ? 'Loading...' : isPlaying ? 'Pause' : 'Play'}
-                        >
+                          title={!isReady ? 'Loading...' : isPlaying ? 'Pause' : 'Play'}>
                           {isPlaying ? '❚❚' : '▶'}
                         </button>
                         <div className="time">
