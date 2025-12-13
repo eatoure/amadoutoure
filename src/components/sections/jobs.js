@@ -93,6 +93,8 @@ const StyledTabButton = styled.button`
     border-left: 0;
     border-bottom: 2px solid var(--lightest-navy);
     text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   &:hover,
