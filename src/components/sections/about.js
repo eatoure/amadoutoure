@@ -158,12 +158,9 @@ const About = () => {
               My passion for this work is rooted in firsthand exposure to the challenges of
               Sénégal’s healthcare system and my general insterest in medicine. That perspective
               keeps me focused on building accessible tools that translate complex data into
-              meaningful care in a variety of industries. I’ve previously contributed to research
+              meaningful care in a variety of industries. I've previously contributed to research
               and engineering teams at{' '}
-              <a href="https://www.mayo.edu/research/departments-divisions/department-otorhinolaryngology/education-training/undergraduate-research-program">
-                Mayo Clinic
-              </a>
-              ,{' '}
+              <a href="https://myelomarisk.com">Mayo Clinic, where I built myelomarisk.com, </a>
               <a href="https://www.brighamandwomens.org/medicine/infectious-disease/bridge-summer-fellowship">
                 Harvard Medical School / Mass General Brigham
               </a>
@@ -177,12 +174,13 @@ const About = () => {
               Beyond Baltimore Health Analytics, I'm building{' '}
               <a href="https://www.azertica.com">Azertica</a>, a startup developing cloud based SaaS
               tools in healthcare, education, connectivity, and sports to strengthen Africa's
-              digital infrastructure. Simlulaneously, I engage with DeeboAI, a startup focused on
-              SaaS, specifically DAW plugin development, and app and website consulting. Whether I'm
-              architecting scalable ML pipelines, reworking front-end UX, or parterning with
-              clinicians and creators, my mission remains the same: deliver technology that elevates
-              health outcomes, enhances accessibility, and amplified creative expression across a
-              wide array of domains.
+              digital infrastructure. Simultaneously, I engage with{' '}
+              <a href="https://www.deeboai.com">DeeboAI</a>, a startup focused on SaaS, specifically
+              DAW plugin development, and app and website consulting. Whether I'm architecting
+              scalable ML pipelines, reworking front-end UX, or partnering with clinicians and
+              creators, my mission remains the same: deliver technology that elevates health
+              outcomes, enhances accessibility, and amplify creative expression across a wide array
+              of domains.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
