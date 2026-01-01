@@ -1,8 +1,8 @@
 ---
 date: '2024-06-08'
-title: 'Med. Practice Eval. Centern Intern'
+title: 'Med. Practice Eval. Center Intern'
 company: 'Harvard Medical School / Mass General Brigham'
-location: 'Boston, Massachussetts'
+location: 'Boston, Massachusetts'
 range: 'June 2024 - June 2025'
 url: 'https://www.brighamandwomens.org/medicine/infectious-disease/bridge-summer-fellowship'
 ---

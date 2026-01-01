@@ -11,4 +11,4 @@ company: 'Mayo Clinic'
 showInProjects: true
 ---
 
-Participating in a research project to increase the accrual of Underrepresented Minorities in therapeuric cancer clinical trials.
+Participating in a research project to increase the accrual of Underrepresented Minorities in therapeutic cancer clinical trials.
