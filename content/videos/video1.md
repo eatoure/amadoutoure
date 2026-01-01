@@ -15,6 +15,6 @@ This work does not offer neat conclusions. Instead, it presents fragments — of
 
 This is not a documentary. It's not a music video. It's a presence — fractured, felt, and unapologetically alive.
 
-**Original Works from:** Charlez Aznavous, Marvel Studios, Damso, BosskaP (LA MANO 19), Freeze Corleone, Pomme (Zamdane), and Kalash Criminel.
+**Original Works from:** Charles Aznavour, Marvel Studios, Damso, BosskaP (LA MANO 19), Freeze Corleone, Pomme (Zamdane), and Kalash Criminel.
 
 **With the help and support of:** Maimouna Kamara, Jonathan Nguyen, David Toledo, and Mahdia Tully Carr.
