@@ -156,7 +156,7 @@ const About = () => {
 
             <p>
               My passion for this work is rooted in firsthand exposure to the challenges of
-              Sénégal’s healthcare system and my general insterest in medicine. That perspective
+              Sénégal’s healthcare system and my general interest in medicine. That perspective
               keeps me focused on building accessible tools that translate complex data into
               meaningful care in a variety of industries. I've previously contributed to research
               and engineering teams at{' '}

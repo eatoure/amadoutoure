@@ -1,6 +1,6 @@
 ---
 date: '2023-06-05'
-title: 'Otorinolaryngology & Medical Oncology SREP Intern'
+title: 'Otorhinolaryngology & Medical Oncology SREP Intern'
 company: 'Mayo: ENT'
 location: 'Rochester, MN, USA'
 range: 'June 2023 - May 2024'
