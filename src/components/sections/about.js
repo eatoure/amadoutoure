@@ -163,13 +163,16 @@ const About = () => {
             </p>
 
             <p>
-              Outside of Baltimore Health Analytics, I run <a href="https://www.deeboai.com">DeeboAI</a>,
-              my software and AI venture focused on websites, internal tools, workflow
-              automations, dashboards, forms, and operational systems for healthcare-adjacent
-              teams, education projects, and small businesses. Deebo Academy is part of that
-              ecosystem: an online tutoring platform supporting STEM and French tutoring through
-              intake workflows, tutor assignment, scheduling, session notes, homework, parent
-              recaps, payments, and tutoring operations.
+              Beyond Baltimore Health Analytics, I&apos;m building{' '}
+              <a href="https://www.azertica.com">Azertica</a>, a startup developing cloud-based
+              tools in healthcare, education, connectivity, and sports to strengthen Africa&apos;s
+              digital infrastructure. Simultaneously, I&apos;m building{' '}
+              <a href="https://www.deeboai.com">DeeboAI</a>, a software and AI consulting venture
+              focused on practical digital systems, workflow automation, education technology, and
+              small-business infrastructure. Whether I&apos;m architecting scalable ML pipelines,
+              reworking front-end UX, or building tools for healthcare, education, and
+              small-business operations, my mission remains the same: deliver technology that
+              improves access, clarity, and real-world decision-making.
             </p>
 
             <p>
