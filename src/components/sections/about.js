@@ -130,7 +130,7 @@ const About = () => {
     'Flask',
     'React',
     'SQL',
-    'Snowflake',
+    'Teradata',
     'Apache ECharts',
     'Time-Series Forecasting',
     'Docker',
@@ -145,42 +145,47 @@ const About = () => {
 
       <div className="inner">
         <StyledText>
+          {/* Use the about section to add fuller context without changing the homepage structure. */}
           <div>
             <p>
               I’m a proud Carleton College alum with a B.A. in Computer Science and a minor in
-              Biochemistry, now working as a Data Scientist at{' '}
-              <a href="https://www.baltimorehealthanalytics.com">Baltimore Health Analytics</a>.
-              Each day I design predictive modeling systems and full-stack analytics platforms that
-              help healthcare leaders make faster, better-informed decisions.
+              Biochemistry. Today, I work full-time as a Data Scientist at{' '}
+              <a href="https://www.baltimorehealthanalytics.com">Baltimore Health Analytics</a>,
+              where I build healthcare analytics tools and predictive systems for Medicare
+              Advantage STAR ratings.
+            </p>
+
+            <p>
+              I’m a data scientist and software builder working across healthcare analytics, AI
+              systems, education technology, and tutoring infrastructure. My work sits at the
+              intersection of software engineering, clinical research, data science, and practical
+              operations design, with an emphasis on tools people actually use.
+            </p>
+
+            <p>
+              Outside of Baltimore Health Analytics, I run <a href="https://www.deeboai.com">DeeboAI</a>,
+              my software and AI venture focused on websites, internal tools, workflow
+              automations, dashboards, forms, and operational systems for healthcare-adjacent
+              teams, education projects, and small businesses. Deebo Academy is part of that
+              ecosystem: an online tutoring platform supporting STEM and French tutoring through
+              intake workflows, tutor assignment, scheduling, session notes, homework, parent
+              recaps, payments, and tutoring operations.
             </p>
 
             <p>
               My passion for this work is rooted in firsthand exposure to the challenges of
-              Sénégal’s healthcare system and my general interest in medicine. That perspective
-              keeps me focused on building accessible tools that translate complex data into
-              meaningful care in a variety of industries. I've previously contributed to research
-              and engineering teams at{' '}
+              Sénégal’s healthcare system and my longstanding interest in medicine and education.
+              That perspective keeps me focused on building accessible systems that translate
+              complex information into useful action. I’ve previously contributed to research and
+              engineering teams at{' '}
               <a href="https://myelomarisk.com">Mayo Clinic, where I built myelomarisk.com, </a>
               <a href="https://www.brighamandwomens.org/medicine/infectious-disease/bridge-summer-fellowship">
                 Harvard Medical School / Mass General Brigham
               </a>
               , the{' '}
-              <a href="https://www.carleton.edu/perception-lab/">Carleton College Perception Lab</a>
-              , and community-focused organizations like{' '}
-              <a href="https://healthfindersmn.org/about/">HealthFinders Collaborative</a>.
-            </p>
-
-            <p>
-              Beyond Baltimore Health Analytics, I'm building{' '}
-              <a href="https://www.azertica.com">Azertica</a>, a startup developing cloud based SaaS
-              tools in healthcare, education, connectivity, and sports to strengthen Africa's
-              digital infrastructure. Simultaneously, I engage with{' '}
-              <a href="https://www.deeboai.com">DeeboAI</a>, a startup focused on SaaS, specifically
-              DAW plugin development, and app and website consulting. Whether I'm architecting
-              scalable ML pipelines, reworking front-end UX, or partnering with clinicians and
-              creators, my mission remains the same: deliver technology that elevates health
-              outcomes, enhances accessibility, and amplify creative expression across a wide array
-              of domains.
+              <a href="https://www.carleton.edu/perception-lab/">Carleton College Perception Lab</a>.
+              I’m also a founding member and lead developer for JammSanté, a health-focused
+              technology initiative under <a href="https://www.azertica.com">Azertica</a>.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
