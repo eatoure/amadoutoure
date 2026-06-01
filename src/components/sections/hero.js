@@ -64,15 +64,18 @@ const Hero = () => {
   const three = (
     <h3 className="big-heading">I build data-driven tools across healthcare, AI, and education.</h3>
   );
-  // Keep the hero summary focused on current work so the intro stays compact.
+  // Keep the hero summary aligned with the existing site intro while reflecting current work.
   const four = (
     <>
       <p>
-        I’m a data scientist and software builder working across healthcare analytics, AI systems,
-        and education technology. My work sits at the intersection of software engineering,
-        clinical research, data science, and tutoring infrastructure. I work full-time as a Data
-        Scientist at Baltimore Health Analytics, and outside of work I’m building DeeboAI and
-        Deebo Academy.
+        I recently graduated from Carleton College with a B.A. in Computer Science and a minor in
+        Biochemistry, and now work as a Data Scientist at Baltimore Health Analytics. I design and
+        deploy predictive modeling platforms that blend machine learning, product thinking, and
+        healthcare strategy. Outside of work, alongside my brother, I’m contributing to the build
+        of Azertica, a startup focused on developing cloud-based tools in healthcare, education,
+        connectivity, and sports to strengthen Africa&apos;s digital infrastructure. Simultaneously,
+        I’m building DeeboAI, a software and AI consulting venture focused on practical digital
+        systems, workflow automation, education technology, and small-business infrastructure.
       </p>
     </>
   );
