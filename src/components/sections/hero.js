@@ -62,25 +62,23 @@ const Hero = () => {
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">E. Amadou Touré.</h2>;
   const three = (
-    <h3 className="big-heading">I build data-driven tools for healthier communities.</h3>
+    <h3 className="big-heading">I build data-driven tools across healthcare, AI, and education.</h3>
   );
+  // Keep the hero summary focused on current work so the intro stays compact.
   const four = (
     <>
       <p>
-        I recently graduated from Carleton College with a B.A. in Computer Science and a minor in
-        Biochemistry, and now work as a Data Scientist at Baltimore Health Analytics. I design and
-        deploy predictive modeling platforms that blend machine learning, product thinking, and
-        healthcare strategy—always with an eye toward accessibility and real-world impact. Outside
-        of work, alongside my brother, I’m contributing in the build of Azertica, a startup focused
-        on developing cloud based tools in healthcare, education, connectivity, and sports to
-        strengthen Africa's digital infrastructure. Simultaneously, I engage with DeeboAI, a startup
-        focused on SaaS, specifically DAW plugin development, and app and website consulting.
+        I’m a data scientist and software builder working across healthcare analytics, AI systems,
+        and education technology. My work sits at the intersection of software engineering,
+        clinical research, data science, and tutoring infrastructure. I work full-time as a Data
+        Scientist at Baltimore Health Analytics, and outside of work I’m building DeeboAI and
+        Deebo Academy.
       </p>
     </>
   );
   const five = (
-    <a className="email-link" href="https://azertica.com" target="_blank" rel="noreferrer">
-      Explore what I’m building at Azertica
+    <a className="email-link" href="https://www.deeboai.com" target="_blank" rel="noreferrer">
+      Explore what I’m building at DeeboAI
     </a>
   );
 
