@@ -151,8 +151,8 @@ const About = () => {
               I’m a proud Carleton College alum with a B.A. in Computer Science and a minor in
               Biochemistry. Today, I work full-time as a Data Scientist at{' '}
               <a href="https://www.baltimorehealthanalytics.com">Baltimore Health Analytics</a>,
-              where I build healthcare analytics tools and predictive systems for Medicare
-              Advantage STAR ratings.
+              where I build healthcare analytics tools and predictive systems for Medicare Advantage
+              STAR ratings.
             </p>
 
             <p>
@@ -167,7 +167,7 @@ const About = () => {
               <a href="https://www.azertica.com">Azertica</a>, a startup developing cloud-based
               tools in healthcare, education, connectivity, and sports to strengthen Africa&apos;s
               digital infrastructure. Simultaneously, I&apos;m building{' '}
-              <a href="https://www.deeboai.com">DeeboAI</a>, a software and AI consulting venture
+              <a href="https://www.deeboai.com">Deebo</a>, a software and AI consulting venture
               focused on practical digital systems, workflow automation, education technology, and
               small-business infrastructure. Whether I&apos;m architecting scalable ML pipelines,
               reworking front-end UX, or building tools for healthcare, education, and
@@ -186,8 +186,8 @@ const About = () => {
                 Harvard Medical School / Mass General Brigham
               </a>
               , the{' '}
-              <a href="https://www.carleton.edu/perception-lab/">Carleton College Perception Lab</a>.
-              I’m also a founding member and lead developer for JammSanté, a health-focused
+              <a href="https://www.carleton.edu/perception-lab/">Carleton College Perception Lab</a>
+              . I’m also a founding member and lead developer for JammSanté, a health-focused
               technology initiative under <a href="https://www.azertica.com">Azertica</a>.
             </p>
 
