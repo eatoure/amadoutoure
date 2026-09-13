@@ -1,0 +1,20 @@
+[build]
+  command = "gatsby build"
+  publish = "public"
+
+# The /admin app is a separate Next.js site (repo: eatoure/amadoutoure-admin) because Gatsby
+# cannot host Next server components. These 200-proxies stitch it in at amadoutoure.com/admin.
+# The admin sets basePath "/admin", so its /_next/* assets are under /admin too and the splat
+# rule below covers them. Both rules are needed: the splat does not match the bare /admin.
+
+[[redirects]]
+  from = "/admin"
+  to = "https://symphonious-lily-02301f.netlify.app/admin"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/admin/*"
+  to = "https://symphonious-lily-02301f.netlify.app/admin/:splat"
+  status = 200
+  force = true
