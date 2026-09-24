@@ -69,19 +69,17 @@ const Hero = () => {
     <>
       <p>
         I recently graduated from Carleton College with a B.A. in Computer Science and a minor in
-        Biochemistry, and now work as a Data Scientist at Baltimore Health Analytics. I design and
-        deploy predictive modeling platforms that blend machine learning, product thinking, and
-        healthcare strategy. Outside of work, alongside my brother, I’m contributing to the build of
+        Biochemistry, and now work as a Full Stack Engineer at Baltimore Health Analytics, where I
+        build the frontend and backend of healthcare analytics products powered by Medicaid and
+        Medicare data. Outside of work, alongside my brother, I’m contributing to the build of
         Azertica, a startup focused on developing cloud-based tools in healthcare, education,
-        connectivity, and sports to strengthen Africa&apos;s digital infrastructure. Simultaneously,
-        I’m building Deebo, a software and AI consulting venture focused on practical digital
-        systems, workflow automation, education technology, and small-business infrastructure.
+        connectivity, and sports to strengthen Africa&apos;s digital infrastructure.
       </p>
     </>
   );
   const five = (
-    <a className="email-link" href="https://www.deeboai.com" target="_blank" rel="noreferrer">
-      Explore what I’m building at Deebo
+    <a className="email-link" href="https://www.azertica.com" target="_blank" rel="noreferrer">
+      Explore what I’m contributing at Azertica
     </a>
   );
 
