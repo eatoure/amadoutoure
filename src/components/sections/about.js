@@ -149,14 +149,16 @@ const About = () => {
           <div>
             <p>
               I’m a proud Carleton College alum with a B.A. in Computer Science and a minor in
-              Biochemistry. Today, I work full-time as a Data Scientist at{' '}
+              Biochemistry. Today, I work full-time as a Full Stack Engineer at{' '}
               <a href="https://www.baltimorehealthanalytics.com">Baltimore Health Analytics</a>,
-              where I build healthcare analytics tools and predictive systems for Medicare Advantage
-              STAR ratings.
+              where I build across the frontend and backend of the company&apos;s analytics
+              products, working with Medicaid and Medicare data to power predictive systems for
+              Medicare Advantage STAR ratings. I joined BHA as a Data Scientist in March 2025 and
+              moved into engineering in September 2026.
             </p>
 
             <p>
-              I’m a data scientist and software builder working across healthcare analytics, AI
+              I’m a full stack engineer and data scientist working across healthcare analytics, AI
               systems, education technology, and tutoring infrastructure. My work sits at the
               intersection of software engineering, clinical research, data science, and practical
               operations design, with an emphasis on tools people actually use.
@@ -166,13 +168,10 @@ const About = () => {
               Beyond Baltimore Health Analytics, I&apos;m building{' '}
               <a href="https://www.azertica.com">Azertica</a>, a startup developing cloud-based
               tools in healthcare, education, connectivity, and sports to strengthen Africa&apos;s
-              digital infrastructure. Simultaneously, I&apos;m building{' '}
-              <a href="https://www.deeboai.com">Deebo</a>, a software and AI consulting venture
-              focused on practical digital systems, workflow automation, education technology, and
-              small-business infrastructure. Whether I&apos;m architecting scalable ML pipelines,
-              reworking front-end UX, or building tools for healthcare, education, and
-              small-business operations, my mission remains the same: deliver technology that
-              improves access, clarity, and real-world decision-making.
+              digital infrastructure. Whether I&apos;m architecting scalable ML pipelines, reworking
+              front-end UX, or building tools for healthcare and education, my mission remains the
+              same: deliver technology that improves access, clarity, and real-world
+              decision-making.
             </p>
 
             <p>
