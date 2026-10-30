@@ -146,19 +146,6 @@ const StyledSidebar = styled.aside`
       padding: 3px 20px 20px;
     }
   }
-
-  .document-links {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin: 10% auto 0;
-    width: max-content;
-  }
-
-  .document-links a {
-    ${({ theme }) => theme.mixins.bigButton};
-    padding: 18px 50px;
-  }
 `;
 
 const Menu = () => {
@@ -260,8 +247,7 @@ const Menu = () => {
           onClick={toggleMenu}
           menuOpen={menuOpen}
           ref={buttonRef}
-          aria-label="Menu"
-        >
+          aria-label="Menu">
           <div className="ham-box">
             <div className="ham-box-inner" />
           </div>
@@ -280,11 +266,6 @@ const Menu = () => {
                 ))}
               </ol>
             )}
-
-            <div className="document-links">
-              <a href="/resume.pdf">Resume</a>
-              <a href="/cv.pdf">CV</a>
-            </div>
           </nav>
         </StyledSidebar>
       </div>

@@ -142,19 +142,6 @@ const StyledLinks = styled.div`
       }
     }
   }
-
-  .resume-button {
-    ${({ theme }) => theme.mixins.smallButton};
-    margin-left: 0;
-    font-size: var(--fz-xs);
-  }
-
-  .document-links {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-left: 15px;
-  }
 `;
 
 const Nav = ({ isHome }) => {
@@ -212,23 +199,6 @@ const Nav = ({ isHome }) => {
     </div>
   );
 
-  const ResumeLink = (
-    <a className="resume-button" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-      Resume
-    </a>
-  );
-  const CVLink = (
-    <a className="resume-button" href="/cv.pdf" target="_blank" rel="noopener noreferrer">
-      CV
-    </a>
-  );
-  const DocumentLinks = (
-    <div className="document-links">
-      {ResumeLink}
-      {CVLink}
-    </div>
-  );
-
   return (
     <StyledHeader scrollDirection={scrollDirection} scrolledToTop={scrolledToTop}>
       <StyledNav>
@@ -245,7 +215,6 @@ const Nav = ({ isHome }) => {
                     </li>
                   ))}
               </ol>
-              {DocumentLinks}
             </StyledLinks>
 
             <Menu />
@@ -274,16 +243,6 @@ const Nav = ({ isHome }) => {
                     ))}
                 </TransitionGroup>
               </ol>
-
-              <TransitionGroup component={null}>
-                {isMounted && (
-                  <CSSTransition classNames={fadeDownClass} timeout={timeout}>
-                    <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
-                      {DocumentLinks}
-                    </div>
-                  </CSSTransition>
-                )}
-              </TransitionGroup>
             </StyledLinks>
 
             <TransitionGroup component={null}>
