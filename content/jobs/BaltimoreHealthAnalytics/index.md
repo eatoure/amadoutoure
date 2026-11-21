@@ -1,13 +1,14 @@
 ---
 date: '2025-03-31'
-title: 'Full Stack Engineer'
+title: 'Data Scientist II'
 company: 'Baltimore Health Analytics'
 location: 'Minneapolis, MN'
 range: 'March 2025 - Present'
 url: 'https://www.baltimorehealthanalytics.com'
 ---
 
-- Joined as a Data Scientist in March 2025 and moved into a Full Stack Engineer role in September 2026, now building features end to end across the company's frontend and backend.
-- Build and scale analytics products on Medicaid and Medicare Advantage data, turning large, complex healthcare datasets into reliable tools for provider organizations.
-- Engineer predictive systems for Medicare Advantage STAR ratings and forecasting using Python, SQL, Teradata, React, and Apache ECharts.
-- Design dashboards and decision-support workflows that translate complex healthcare measures into clear, actionable views for client and operations teams.
+- Joined as a Data Science Intern in March 2025, became a Data Scientist in June 2025, and was promoted to Data Scientist II in November 2026.
+- Build Medicaid datasets that power gap closure dashboards, and Teradata pipelines for vendor performance analysis for BCBS health plans.
+- Spent a year and a half on R&D for a model that predicts CMS Medicare Advantage Star ratings, starting from the foundation I built as an intern.
+- Build PDP SQL pipelines and turn messy claims and quality data into client reports.
+- Expanding into full-stack work on the company's analytics products.
