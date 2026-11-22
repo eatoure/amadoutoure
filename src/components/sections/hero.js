@@ -62,18 +62,19 @@ const Hero = () => {
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">E. Amadou Touré.</h2>;
   const three = (
-    <h3 className="big-heading">I build data-driven tools across healthcare, AI, and education.</h3>
+    <h3 className="big-heading">I build machine learning systems that turn data into decisions.</h3>
   );
   // Keep the hero summary aligned with the existing site intro while reflecting current work.
   const four = (
     <>
       <p>
-        I recently graduated from Carleton College with a B.A. in Computer Science and a minor in
-        Biochemistry, and now work as a Full Stack Engineer at Baltimore Health Analytics, where I
-        build the frontend and backend of healthcare analytics products powered by Medicaid and
-        Medicare data. Outside of work, alongside my brother, I’m contributing to the build of
-        Azertica, a startup focused on developing cloud-based tools in healthcare, education,
-        connectivity, and sports to strengthen Africa&apos;s digital infrastructure.
+        I graduated from Carleton College with a B.A. in Computer Science and a minor in
+        Biochemistry, and now work as a Data Scientist II at Baltimore Health Analytics, where I
+        build predictive models and the data pipelines behind them. My focus is AI and machine
+        learning, with a growing interest in computer vision and recognition. Outside of work,
+        alongside my brother, I’m contributing to the build of Azertica, a startup focused on
+        developing cloud-based tools in healthcare, education, connectivity, and sports to
+        strengthen Africa&apos;s digital infrastructure.
       </p>
     </>
   );

@@ -127,16 +127,15 @@ const About = () => {
 
   const skills = [
     'Python',
-    'Flask',
-    'React',
     'SQL',
-    'Teradata',
-    'Apache ECharts',
-    'Time-Series Forecasting',
-    'Docker',
+    'Scikit-learn',
     'XGBoost',
-    'SARIMAX',
-    'Exponential Smoothing',
+    'R',
+    'Unsupervised Learning',
+    'Time-Series Forecasting',
+    'Teradata',
+    'Docker',
+    'React',
   ];
 
   return (
@@ -149,45 +148,40 @@ const About = () => {
           <div>
             <p>
               I’m a proud Carleton College alum with a B.A. in Computer Science and a minor in
-              Biochemistry. Today, I work full-time as a Full Stack Engineer at{' '}
+              Biochemistry. Today, I work full-time as a Data Scientist II at{' '}
               <a href="https://www.baltimorehealthanalytics.com">Baltimore Health Analytics</a>,
-              where I build across the frontend and backend of the company&apos;s analytics
-              products, working with Medicaid and Medicare data to power predictive systems for
-              Medicare Advantage STAR ratings. I joined BHA as a Data Scientist in March 2025 and
-              moved into engineering in September 2026.
+              where I build machine learning models and data pipelines, including R&amp;D on a model
+              that predicts CMS Medicare Advantage Star ratings. I joined BHA as a Data Science
+              Intern in March 2025.
             </p>
 
             <p>
-              I’m a full stack engineer and data scientist working across healthcare analytics, AI
-              systems, education technology, and tutoring infrastructure. My work sits at the
-              intersection of software engineering, clinical research, data science, and practical
-              operations design, with an emphasis on tools people actually use.
+              My work centers on AI and machine learning: predictive modeling, unsupervised
+              learning, and the data engineering that makes models useful in practice. I’m
+              especially drawn to computer vision and recognition, teaching machines to make sense
+              of images, speech, and other signals people interpret without thinking.
             </p>
 
             <p>
               Beyond Baltimore Health Analytics, I&apos;m building{' '}
               <a href="https://www.azertica.com">Azertica</a>, a startup developing cloud-based
               tools in healthcare, education, connectivity, and sports to strengthen Africa&apos;s
-              digital infrastructure. Whether I&apos;m architecting scalable ML pipelines, reworking
-              front-end UX, or building tools for healthcare and education, my mission remains the
-              same: deliver technology that improves access, clarity, and real-world
-              decision-making.
+              digital infrastructure. Whether I&apos;m architecting ML pipelines or shipping product
+              features, my mission remains the same: deliver technology that improves access,
+              clarity, and real-world decision-making.
             </p>
 
             <p>
-              My passion for this work is rooted in firsthand exposure to the challenges of
-              Sénégal’s healthcare system and my longstanding interest in medicine and education.
-              That perspective keeps me focused on building accessible systems that translate
-              complex information into useful action. I’ve previously contributed to research and
-              engineering teams at{' '}
-              <a href="https://myelomarisk.com">Mayo Clinic, where I built myelomarisk.com, </a>
+              Before BHA, I applied clustering to cardiometabolic survey data at{' '}
               <a href="https://www.brighamandwomens.org/medicine/infectious-disease/bridge-summer-fellowship">
                 Harvard Medical School / Mass General Brigham
               </a>
-              , the{' '}
+              , modeled spoken-word recognition in noise at the{' '}
               <a href="https://www.carleton.edu/perception-lab/">Carleton College Perception Lab</a>
-              . I’m also a founding member and lead developer for JammSanté, a health-focused
-              technology initiative under <a href="https://www.azertica.com">Azertica</a>.
+              , and built <a href="https://myelomarisk.com">myelomarisk.com</a>, a prognosis
+              prediction tool, at Mayo Clinic. I’m also a founding member and lead developer for
+              JammSanté, a technology initiative under{' '}
+              <a href="https://www.azertica.com">Azertica</a>.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
