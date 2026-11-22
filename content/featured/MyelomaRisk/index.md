@@ -3,7 +3,7 @@ date: '3'
 title: 'MyelomaRisk'
 cover: './halcyon.png'
 github: ''
-external: 'https://eatoure.github.io/#/'
+external: 'https://myelomarisk.com'
 tech:
   - Flutter
   - Dart
